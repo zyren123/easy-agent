@@ -1,0 +1,5 @@
+{"file":".trellis/spec/backend/index.md","reason":"Check agent should validate repository conventions against the backend spec index."}
+{"file":".trellis/spec/backend/directory-structure.md","reason":"Check the resulting layout and naming decisions against the documented structure."}
+{"file":".trellis/spec/backend/error-handling.md","reason":"Check agent should confirm error handling conventions are explicit and consistent."}
+{"file":".trellis/spec/backend/logging-guidelines.md","reason":"Check agent should verify logging guidance remains lightweight and coherent."}
+{"file":".trellis/spec/backend/quality-guidelines.md","reason":"Check agent should verify testing, linting, and type-check requirements are documented clearly."}

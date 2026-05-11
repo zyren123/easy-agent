@@ -1,0 +1,7 @@
+{"file":".trellis/spec/backend/index.md","reason":"Top-level backend/spec index for repository conventions that the first-week foundation task will define."}
+{"file":".trellis/spec/backend/directory-structure.md","reason":"Repository and module layout decisions are a core deliverable of this task."}
+{"file":".trellis/spec/backend/error-handling.md","reason":"Week-one setup must define project-wide error handling conventions for scripts and educational modules."}
+{"file":".trellis/spec/backend/logging-guidelines.md","reason":"Week-one setup should define lightweight but consistent logging conventions."}
+{"file":".trellis/spec/backend/quality-guidelines.md","reason":"Testing, linting, type checking, and review conventions must be established now."}
+{"file":".trellis/spec/guides/code-reuse-thinking-guide.md","reason":"The first-week design should centralize shared infrastructure instead of duplicating patterns across sections."}
+{"file":".trellis/spec/guides/cross-layer-thinking-guide.md","reason":"The repository plan needs clear boundaries between reusable package code, notebooks, docs, and curriculum modules."}
