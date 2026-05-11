@@ -1,0 +1,6 @@
+{"file":".trellis/spec/backend/index.md","reason":"Review the first lesson against the backend index rules."}
+{"file":".trellis/spec/backend/directory-structure.md","reason":"Validate the module layout and naming rules."}
+{"file":".trellis/spec/backend/error-handling.md","reason":"Check validation behavior in reusable lesson code."}
+{"file":".trellis/spec/backend/logging-guidelines.md","reason":"Check logging and output conventions."}
+{"file":".trellis/spec/backend/quality-guidelines.md","reason":"Check tests, linting, and notebook/source alignment."}
+{"file":".trellis/tasks/05-11-first-week-trellis-setup/info.md","reason":"Review the implementation against the frozen week-one decisions."}

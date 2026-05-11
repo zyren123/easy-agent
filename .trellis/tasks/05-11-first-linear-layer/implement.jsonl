@@ -1,0 +1,6 @@
+{"file":".trellis/spec/backend/index.md","reason":"Top-level backend rules for the repo and curriculum layout."}
+{"file":".trellis/spec/backend/directory-structure.md","reason":"Defines the module folder contract and src layout that this first lesson must follow."}
+{"file":".trellis/spec/backend/error-handling.md","reason":"Specifies validation and notebook-safe error handling for reusable lesson code."}
+{"file":".trellis/spec/backend/logging-guidelines.md","reason":"Explains the lightweight logging rules for Python lesson code."}
+{"file":".trellis/spec/backend/quality-guidelines.md","reason":"Defines testing, lint, type-check, and notebook/source-of-truth expectations."}
+{"file":".trellis/tasks/05-11-first-week-trellis-setup/info.md","reason":"Carries forward the week-one decisions and milestone boundaries from the planning task."}
