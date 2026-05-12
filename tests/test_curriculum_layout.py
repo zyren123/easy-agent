@@ -1,14 +1,15 @@
-from ai_edu import CURRICULUM_SECTIONS
-from ai_edu.foundations import LinearLayerLesson
+from pathlib import Path
 
 
 def test_curriculum_sections_are_frozen() -> None:
-    assert CURRICULUM_SECTIONS == ("foundations", "training", "agents")
+    for section in ("foundations", "training", "agents"):
+        assert Path(section).is_dir()
 
 
-def test_linear_layer_lesson_metadata_matches_layout() -> None:
-    lesson = LinearLayerLesson()
+def test_linear_layer_module_matches_expected_layout() -> None:
+    module_dir = Path("foundations/01-linear-layer")
 
-    assert lesson.module_path() == "foundations/01-linear-layer"
-    assert lesson.source_path.endswith("lesson.py")
-    assert lesson.notebook_path.endswith("lesson.ipynb")
+    assert module_dir.is_dir()
+    assert (module_dir / "README.md").is_file()
+    assert (module_dir / "linear_layer.py").is_file()
+    assert (module_dir / "linear_layer.ipynb").is_file()

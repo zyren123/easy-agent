@@ -10,6 +10,9 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
 
+[project.optional-dependencies]
+torch = ["torch"]
+
 [dependency-groups]
 dev = [
   "ipykernel>=6.29",
@@ -18,11 +21,8 @@ dev = [
   "ruff>=0.6",
 ]
 
-[tool.hatch.build.targets.wheel]
-packages = ["src/ai_edu"]
-
 [tool.uv]
-package = true
+package = false
 
 [tool.ruff]
 line-length = 100
@@ -34,7 +34,7 @@ select = ["B", "E", "F", "I", "UP"]
 [tool.mypy]
 python_version = "3.12"
 strict = true
-packages = ["ai_edu"]
+files = ["foundations", "tests"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
