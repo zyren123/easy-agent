@@ -1,0 +1,4 @@
+{"file": ".trellis/spec/backend/directory-structure.md", "reason": "Update module layout conventions to require torch and reference implementations in module-local files."}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "Update the testing and implementation quality bar for torch-plus-reference parity."}
+{"file": ".trellis/spec/backend/error-handling.md", "reason": "Keep validation behavior explicit while introducing the torch implementation pattern."}
+{"file": ".trellis/tasks/05-11-first-linear-layer/prd.md", "reason": "The first module task must inherit the new torch-plus-reference convention."}

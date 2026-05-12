@@ -1,0 +1,4 @@
+{"file": ".trellis/spec/backend/directory-structure.md", "reason": "Verify module layout and file naming remain simple while adding the torch-plus-reference rule."}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "Verify parity checks and implementation/testing expectations are documented clearly."}
+{"file": ".trellis/spec/backend/error-handling.md", "reason": "Verify module validation behavior remains explicit and educational."}
+{"file": ".trellis/tasks/05-11-first-linear-layer/prd.md", "reason": "Verify the first module task definition matches the updated convention."}

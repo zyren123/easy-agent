@@ -7,8 +7,8 @@ stay simple, explicit, and educational.
 
 ### 1. Scope / Trigger
 
-- Trigger: adding reusable functions, lesson scripts, or notebook-backed examples
-- Applies to: `src/ai_edu/**/*.py` and module-local `lesson.py`
+- Trigger: adding module functions, module scripts, or notebook-backed examples
+- Applies to: module-local `.py` files under `foundations/`, `training/`, and `agents/`
 
 ### 2. Signatures
 
@@ -20,8 +20,10 @@ stay simple, explicit, and educational.
 
 - Error messages must tell the learner what input or invariant was wrong.
 - Notebook examples should fail fast rather than silently clipping or coercing data.
-- Reusable package code should not swallow exceptions just to keep notebooks running.
+- Module code should not swallow exceptions just to keep notebooks running.
 - `print()` is not error handling; use exceptions for failures and logging for diagnostics.
+- If a module offers both torch and reference paths, missing torch should raise a
+  clear runtime error at the torch boundary rather than breaking the reference path.
 
 ### 4. Validation & Error Matrix
 
@@ -39,8 +41,8 @@ stay simple, explicit, and educational.
 
 ### 6. Tests Required
 
-- Add unit tests for each public validation branch introduced in `src/ai_edu/`.
-- If a lesson file contains reusable helpers, migrate them into `src/ai_edu/` before adding tests.
+- Add unit tests for each public validation branch introduced in a module `.py` file.
+- If a module file grows too large, refactor within the module directory before adding another top-level abstraction layer.
 - Regression tests should assert the exception type and the key message fragment.
 
 ### 7. Wrong vs Correct
